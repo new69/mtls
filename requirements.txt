@@ -1,0 +1,15 @@
+exceptiongroup==1.1.1
+idna==3.4
+iniconfig==2.0.0
+mtls-poc @ file:///home/jefferson-silva/repositories/mtls
+multidict==6.0.4
+packaging==23.1
+pluggy==1.0.0
+pytest==7.3.1
+PyYAML==6.0
+six==1.16.0
+tomli==2.0.1
+urllib3==1.26.16
+vcrpy==4.3.1
+wrapt==1.15.0
+yarl==1.9.2
