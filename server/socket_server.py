@@ -35,7 +35,6 @@ def handle_connection(conn):
         # Lê os dados enviados pelo cliente
         data = conn_ssl.recv(1024).decode('utf-8')
 
-        breakpoint()
         # Processa os dados recebidos
         if data.strip().lower() == 'hello':
             response = 'ok'

@@ -1,0 +1,30 @@
+interactions:
+- request:
+    body: hello
+    headers:
+      Connection:
+      - close
+      Content-Length:
+      - '5'
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Host:
+      - server.127.0.0.1.nip.io:4433
+      User-Agent:
+      - Python-urllib/3.8
+    method: POST
+    uri: https://server.127.0.0.1.nip.io:4433/
+  response:
+    body:
+      string: Received your POST request
+    headers:
+      Content-type:
+      - text/html
+      Date:
+      - Wed, 31 May 2023 20:50:46 GMT
+      Server:
+      - SimpleHTTP/0.6 Python/3.8.12
+    status:
+      code: 200
+      message: OK
+version: 1
